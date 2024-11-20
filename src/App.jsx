@@ -21,7 +21,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <AppThemeProvider>
-        <Router>
+        <Router basename="/mgh_deploy_test">
           <Routes>
             <Route path="/" element={<MainPage />} />
             <Route path="/interpolationcurves_learn" element={<LessonLearnInterpolationCurve />} />
